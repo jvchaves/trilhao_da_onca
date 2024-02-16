@@ -1,6 +1,6 @@
 # Trilhão da Onça - Sistema de Gerenciamento de Inscrições
 
-O Trilhão da Onça é um evento offroad para ciclistas e motociclistas que atrai entusiastas de todo o mundo. Este projeto consiste em um sistema de gerenciamento de inscrições desenvolvido em Ruby 3 e Rails 7 para facilitar o processo de inscrição e gestão dos participantes.
+O Trilhão da Onça é um evento offroad para ciclistas e motociclistas que atrai entusiastas de todo o Brasil. Este projeto consiste em um sistema de gerenciamento de inscrições desenvolvido em Ruby 3 e Rails 7 para facilitar o processo de inscrição e gestão dos participantes.
 
 ## Funcionalidades Principais
 
