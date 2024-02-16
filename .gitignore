@@ -1,0 +1,49 @@
+# Ignore arquivos temporários
+*.swp
+*.bak
+*.~*
+
+# Ignore arquivos de log
+log/*.log
+
+# Ignore arquivos de cache
+tmp/
+
+# Ignore arquivos de dependências do Bundler
+vendor/bundle
+
+# Ignore arquivos de backup do Editor
+.vscode/
+
+# Ignore o banco de dados SQLite3 (se estiver usando SQLite)
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore o diretório Node.js (se estiver usando webpacker)
+/node_modules
+
+# Ignore o arquivo de ambiente local
+/.env
+
+# Ignore o diretório de uploads
+/public/uploads
+
+# Ignore o arquivo de configuração do RSpec (se estiver usando RSpec)
+/spec/support/coverage/
+/spec/support/*.cache
+
+# Ignore o diretório de cache do RuboCop (se estiver usando RuboCop)
+/.rubocop-*
+
+# Ignore o diretório de cache do Spring (se estiver usando Spring)
+/spring/*.pid
+
+# Ignore arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignore a pasta de compilação (se estiver usando webpacker)
+/public/packs
+
+# Ignore o arquivo de configuração do Editor
+.editorconfig
