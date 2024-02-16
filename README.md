@@ -13,7 +13,7 @@ O Trilhão da Onça é um evento offroad para ciclistas e motociclistas que atra
 
 - Ruby 3
 - Rails 7
-- Banco de Dados (ex: PostgreSQL, MySQL)
+- Banco de Dados PostgreSQL.
 
 ## Instalação
 
