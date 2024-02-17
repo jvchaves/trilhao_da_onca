@@ -7,3 +7,6 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+["moto", "bicicleta"].each do |gerar_modalidade|
+  Modalidade.find_or_create_by!(nome: gerar_modalidade)
+end
