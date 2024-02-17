@@ -41,6 +41,7 @@ vendor/bundle
 # Ignore arquivos gerados pelo sistema operacional
 .DS_Store
 Thumbs.db
+/db/schema.rb
 
 # Ignore a pasta de compilação (se estiver usando webpacker)
 /public/packs
