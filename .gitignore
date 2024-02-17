@@ -48,3 +48,4 @@ Thumbs.db
 
 # Ignore o arquivo de configuração do Editor
 .editorconfig
+coverage
