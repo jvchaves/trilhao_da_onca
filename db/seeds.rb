@@ -10,3 +10,17 @@
 ["moto", "bicicleta"].each do |gerar_modalidade|
   Modalidade.find_or_create_by!(nome: gerar_modalidade)
 end
+
+response_api_estados = ::Apis::IbgeEstados::new().execute
+
+response_api_estados.each do |estado|
+  Estado.find_or_create_by!(nome:estado["nome"], sigla: estado["sigla"] )
+end
+
+response_api_cidades = ::Apis::IbgeCidades::new().execute
+
+response_api_cidades.each do |cidade|
+  estados = Estado.all
+  estado_cidade = cidade["regiao-imediata"]["regiao-intermediaria"]["UF"]
+  Cidade.find_or_create_by!(nome:cidade["nome"], estado_id: estados.find_by(nome:estado_cidade["nome"], sigla: estado_cidade["sigla"] ).try(:id))
+end
