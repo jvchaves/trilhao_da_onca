@@ -1,5 +1,5 @@
 class Organizador < ApplicationRecord
-  has_one :cidade
+  belongs_to :cidade
 
   validates :nome, :email, :cidade_id, :telefone, presence: true
   validates :email, :telefone, uniqueness: true
